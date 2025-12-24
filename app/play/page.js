@@ -8,10 +8,10 @@ export default function PlayGame() {
   const router = useRouter();
 
   const { unityProvider, loadingProgression, isLoaded } = useUnityContext({
-    loaderUrl: "/game/Build/windsball2.loader.js",
-    dataUrl: "/game/Build/windsball2.data.unityweb",
-    frameworkUrl: "/game/Build/windsball2.framework.js.unityweb",
-    codeUrl: "/game/Build/windsball2.wasm.unityweb",
+    loaderUrl: "/game/Build/gamevessel.loader.js",
+    dataUrl: "/game/Build/gamevessel.data.unityweb",
+    frameworkUrl: "/game/Build/gamevessel.framework.js.unityweb",
+    codeUrl: "/game/Build/gamevessel.wasm.unityweb",
   });
 
   // --- SECURITY HEARTBEAT ---
