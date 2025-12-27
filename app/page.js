@@ -18,7 +18,7 @@ export default function LoginPage() {
           height: 100vh;
           align-items: center;
           justify-content: center;
-          background-image: url('/login-bg.png'); 
+          background-image: url('/login-bg.jpg'); 
           background-size: cover;
           background-position: center;
           position: relative;
