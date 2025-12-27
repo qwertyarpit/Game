@@ -8,10 +8,10 @@ export default function PlayGame() {
   const router = useRouter();
 
   const { unityProvider, loadingProgression, isLoaded } = useUnityContext({
-    loaderUrl: "/game/Build/builddd.loader.js",
-    dataUrl: "/game/Build/builddd.data.unityweb",
-    frameworkUrl: "/game/Build/builddd.framework.js.unityweb",
-    codeUrl: "/game/Build/builddd.wasm.unityweb",
+    loaderUrl: "/game/Build/senddd.loader.js",
+    dataUrl: "/game/Build/senddd.data.unityweb",
+    frameworkUrl: "/game/Build/senddd.framework.js.unityweb",
+    codeUrl: "/game/Build/senddd.wasm.unityweb",
   });
 
   // --- SECURITY HEARTBEAT ---
