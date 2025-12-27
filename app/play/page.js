@@ -8,10 +8,10 @@ export default function PlayGame() {
   const router = useRouter();
 
   const { unityProvider, loadingProgression, isLoaded } = useUnityContext({
-    loaderUrl: "/game/Build/gamevessel.loader.js",
-    dataUrl: "/game/Build/gamevessel.data.unityweb",
-    frameworkUrl: "/game/Build/gamevessel.framework.js.unityweb",
-    codeUrl: "/game/Build/gamevessel.wasm.unityweb",
+    loaderUrl: "/game/Build/builddd.loader.js",
+    dataUrl: "/game/Build/builddd.data.unityweb",
+    frameworkUrl: "/game/Build/builddd.framework.js.unityweb",
+    codeUrl: "/game/Build/builddd.wasm.unityweb",
   });
 
   // --- SECURITY HEARTBEAT ---
