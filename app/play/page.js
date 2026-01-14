@@ -14,7 +14,8 @@ export default function PlayGame() {
     codeUrl: "/game/Build/gamevessel.wasm.unityweb",
   });
 
-  // --- SECURITY HEARTBEAT ---
+  // --- SECURITY HEARTBEAT -----
+  //sample comment
   useEffect(() => {
     const checkStatus = async () => {
       try {
